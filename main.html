@@ -7,18 +7,20 @@
 </head>
 <style>
 
-.holder{
-    display: flex;
-  justify-content: center;  
-justify-content: space-between;
- 
+.holder {
+  display: flex;
+  justify-content: space-between; /* Space between the items */
+  flex-wrap: wrap;                /* Allow items to wrap to the next row */
+  width: 100vw;                   /* Full viewport width */
+  padding: 0 10px;                /* Optional: Add some padding to prevent items from being flush with the edge */
 }
-.item{
 
-    width: 100px;
-    height: 100px;
-    background-color: red;
+.item {
+  width: 100px;                   /* Each item will have a width of 100px */
+  height: 100px;                  /* Each item will have a height of 100px */
+  background-color: red;          /* Red background to visualize the items */
 }
+
 </style>
 <body>
 
